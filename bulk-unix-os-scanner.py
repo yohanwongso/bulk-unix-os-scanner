@@ -46,5 +46,3 @@ with open('config.yml', 'r') as yaml_config_file:
                     output_csv_writer.writerow(csv_data)
 
                 ssh_client.close()
-            output_csv_file.close()
-        list_ip_file.close()
