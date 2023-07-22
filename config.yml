@@ -1,0 +1,7 @@
+ssh:
+  port: 22
+  username: ""
+  password: ""
+  list_ip_file: ip.txt
+output:
+  csv: report.csv
